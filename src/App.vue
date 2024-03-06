@@ -4,6 +4,7 @@
     <ClienteForm />
     <ClienteList />
     <ProdutoForm />
+    <ProdutoList />
   </div>
 </template>
 
@@ -11,6 +12,7 @@
 import ClienteForm from './components/ClienteForm.vue';
 import ClienteList from './components/ClienteList.vue'
 import ProdutoForm from './components/ProdutoForm.vue'
+import ProdutoList from './components/ProdutoList.vue'
 
 export default {
   name: 'App',
@@ -18,6 +20,7 @@ export default {
     ClienteForm,
     ClienteList,
     ProdutoForm,
+    ProdutoList,
   }
 }
 </script>
