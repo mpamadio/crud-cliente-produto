@@ -2,16 +2,19 @@
   <div>
     <h1>Gerenciamento de Clientes e Produtos</h1>
     <ClienteForm />
+    <ClienteList />
   </div>
 </template>
 
 <script>
 import ClienteForm from './components/ClienteForm.vue';
+import ClienteList from './components/ClienteList.vue'
 
 export default {
   name: 'App',
   components: {
-    ClienteForm
+    ClienteForm,
+    ClienteList,
   }
 }
 </script>
