@@ -5,9 +5,7 @@ const cors = require('cors');
 
 const app = express();
 
-mongoose.connect('mongodb://localhost:27017/gerenciamento-produto-cliente', {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
+mongoose.connect('mongodb://127.0.0.1/gerenciamento-produto-cliente', {
 }).then(() => {
     console.log('Conectado ao MongoDB');
 }).catch(err => {
