@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="max-w-sm mx-auto">
       <h2>Associar Produtos a Clientes</h2>
       <div class="form-group">
         <label for="cliente">Cliente:</label>
@@ -12,7 +12,7 @@
         <select v-model="produtoSelecionado">
           <option v-for="produto in produtosDisponiveis" :key="produto.id" :value="produto.id">{{ produto.nome }}</option>
         </select>
-        <button @click="associarProduto">Associar Produto</button>
+        <button class="mt-6" @click="associarProduto">Associar Produto</button>
       </div>
       <div>
         <h3>Produtos Associados:</h3>

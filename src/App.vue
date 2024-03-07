@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mx-auto container">
     <h1>Gerenciamento de Clientes e Produtos</h1>
     <ClienteForm />
     <ClienteList />
@@ -29,12 +29,4 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>

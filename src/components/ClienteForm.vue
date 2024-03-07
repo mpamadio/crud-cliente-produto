@@ -1,5 +1,6 @@
 <template>
-    <form @submit.prevent="submitForm">
+    <div class="max-w-sm mx-auto">
+    <form class="flex gap-2 mb-6 items-baseline flex-col" @submit.prevent="submitForm">
         <label for="nome">Nome:</label>
         <input type="text" id="nome" v-model="cliente.nome" required>
 
@@ -18,8 +19,9 @@
             <option value="Nao">Não</option>
         </select>
 
-        <button type="submit">Salvar</button>
+        <button class="mt-2" type="submit">Salvar</button>
     </form>
+</div>
 </template>
 
 <script>
