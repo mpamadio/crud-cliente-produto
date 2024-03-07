@@ -40,6 +40,9 @@ Certifique-se de que a Connection String do MongoDB esteja configurada corretame
 
 mongodb://127.0.0.1/gerenciamento-produto-cliente
 
+![image](https://github.com/mpamadio/crud-cliente-produto/assets/2831485/2fed9cb9-8534-4ef6-85f0-ae69dd11315e)
+
+
 ### Passos para Execução
 
 1. Clone o repositório para sua máquina local:
