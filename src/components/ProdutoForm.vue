@@ -1,6 +1,7 @@
 <template>
+  <div class="max-w-sm mx-auto mt-6">
     <h2>Cadastro Produto</h2>
-    <form @submit.prevent="submitForm">
+    <form class="flex gap-2 mb-6 items-baseline flex-col" @submit.prevent="submitForm">
       <label for="nome">Nome:</label>
       <input type="text" id="nome" v-model="produto.nome" required>
   
@@ -12,6 +13,7 @@
   
       <button type="submit">Salvar</button>
     </form>
+  </div>
   </template>
   
   <script>
