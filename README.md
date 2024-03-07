@@ -40,12 +40,6 @@ Certifique-se de que a Connection String do MongoDB esteja configurada corretame
 
 mongodb://127.0.0.1/gerenciamento-produto-cliente
 
-
-## Configuração da Connection String do MongoDB
-
-Certifique-se de que a Connection String do MongoDB esteja configurada corretamente em seu servidor backend. A Connection String deve seguir este padrão:
-
-
 ### Passos para Execução
 
 1. Clone o repositório para sua máquina local:
