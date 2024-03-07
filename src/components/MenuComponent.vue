@@ -5,11 +5,11 @@
         <router-link to="/cliente-form" class="btn-router">Cadastro Cliente</router-link>
       </li>
       <li>
-        <router-link to="/clientes" class="btn-router">Lista de Clientes</router-link>
-      </li>
-      <li>
         <router-link to="/produto-form" class="btn-router">Cadastro Produto</router-link>
       </li>
+      <li>
+        <router-link to="/clientes" class="btn-router">Lista de Clientes</router-link>
+      </li>      
       <li>
         <router-link to="/produtos" class="btn-router">Lista de Produtos</router-link>
       </li>

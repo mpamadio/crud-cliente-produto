@@ -8,7 +8,9 @@ const associacaoSchema = new mongoose.Schema({
     produtoId: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Produto'
-    }
+    },
+    nomeCliente: String,
+    nomeProduto: String
 });
 
 module.exports = mongoose.model('Associacao', associacaoSchema);
